@@ -1,6 +1,6 @@
 html {
 	height: 100%;
-	font-size: 1.5vw;
+	font-size: 3.5vw;
 	line-height: 1.0rem;
 	font-family: 'Open Sans', sans-serif;
 
@@ -71,6 +71,63 @@ section {
 	/*background: blue;*/
 }
 
+@keyframes rotate-0 {
+  100% { transform: rotate(900deg); }
+}
+
+@keyframes rotate-1 {
+  100% { transform: rotate(1800deg); }
+}
+
+@keyframes rotate-2 {
+  100% { transform: rotate(2700deg); }
+}
+
+@keyframes rotate-3 {
+  100% { transform: rotate(3600deg); }
+}
+
+@keyframes rotate-4 {
+  100% { transform: rotate(4500deg); }
+}
+
+.spinner.level-0 {
+	animation-name: rotate-0;
+	animation-duration: 1000ms; /* duration of single spin */
+}
+
+.spinner.level-1 {
+	animation-name: rotate-1;
+	animation-duration: 1200ms; /* duration of single spin */
+}
+
+.spinner.level-2 {
+	animation-name: rotate-2;
+	animation-duration: 1400ms; /* duration of single spin */
+}
+
+.spinner.level-3 {
+	animation-name: rotate-3;
+	animation-duration: 1600ms; /* duration of single spin */
+}
+.spinner.level-4 {
+	animation-name: rotate-4;
+	animation-duration: 1800ms; /* duration of single spin */
+}
+
+
+.spinner {
+	animation-iteration-count: 1;
+	animation-direction: normal; /* or: alternate */
+	animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+	animation-fill-mode: forwards; /* or: backwards, both, none */
+	animation-delay: 0s; /* or: Xms */
+}
+
+
+dl {
+	line-height: 2.0rem;
+}
 
 
 footer {
@@ -89,4 +146,39 @@ footer {
 
 footer a {
 	color: #dedede;
+}
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	html {
+		font-size: 2.5vw;
+	}
+} 
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	html {
+		font-size: 2.0vw;
+	}
+} 
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	html {
+		font-size: 1.5vw;
+	}
+} 
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	html {
+		font-size: 1.0vw;
+	}
 }
