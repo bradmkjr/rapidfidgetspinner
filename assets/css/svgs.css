@@ -1,0 +1,52 @@
+/*img { display: block; width: 90%; }*/
+
+
+img:hover path {
+    fill: #303 !important;
+}
+
+img:hover {
+	cursor: pointer;
+	/*filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);*/
+}
+
+img.level-0 {
+	filter: hue-rotate(0deg) drop-shadow( 2px 2px 2px rgba(0,0,0,0.6));
+}
+
+img.level-1 {
+	filter: hue-rotate(60deg) drop-shadow( 2px 2px 2px rgba(0,0,0,0.6));
+}
+
+img.level-2 {
+	filter: hue-rotate(120deg) drop-shadow( 2px 2px 2px rgba(0,0,0,0.6));
+}
+
+img.level-3 {
+	filter: hue-rotate(180deg) drop-shadow( 2px 2px 2px rgba(0,0,0,0.6));
+}
+
+img.level-4 {
+	filter: hue-rotate(2400deg) drop-shadow( 2px 2px 2px rgba(0,0,0,0.6));
+}
+
+
+img.rotate.level-0 {
+	filter: hue-rotate(0deg) drop-shadow( 2px 2px 2px rgba(0,0,0,0.6)) blur(5px);
+}
+
+img.rotate.level-1 {
+	filter: hue-rotate(60deg) drop-shadow( 2px 2px 2px rgba(0,0,0,0.6)) blur(5px);
+}
+
+img.rotate.level-2 {
+	filter: hue-rotate(120deg) drop-shadow( 2px 2px 2px rgba(0,0,0,0.6)) blur(5px);
+}
+
+img.rotate.level-3 {
+	filter: hue-rotate(180deg) drop-shadow( 2px 2px 2px rgba(0,0,0,0.6)) blur(5px);
+}
+
+img.rotate.level-4 {
+	filter: hue-rotate(2400deg) drop-shadow( 2px 2px 2px rgba(0,0,0,0.6)) blur(5px);
+}

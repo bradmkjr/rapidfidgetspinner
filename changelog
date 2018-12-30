@@ -7,3 +7,6 @@ Working demo of CSS animations with slowdown after rotations
 
 #1.5.3
 Added onClick to spinners, with callback to end rotation
+
+#1.5.4
+Added svgs.css rules to improve spinner visual
