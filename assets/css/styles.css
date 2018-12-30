@@ -54,6 +54,24 @@ header h1 span {
 	width: 100%;
 }
 
+.flex-container > div {
+	flex: 1;
+}
+
+section .flex-container {
+	justify-content: space-between;
+} 
+
+section .flex-container > div {
+	padding: 1.0rem;
+}
+
+
+section h3 {
+	text-decoration: underline;
+	line-height: 2.0rem;
+}
+
 aside,
 section {
 	padding: .5rem;
@@ -72,23 +90,23 @@ section {
 }
 
 @keyframes rotate-0 {
-  100% { transform: rotate(900deg); }
-}
-
-@keyframes rotate-1 {
   100% { transform: rotate(1800deg); }
 }
 
-@keyframes rotate-2 {
+@keyframes rotate-1 {
   100% { transform: rotate(2700deg); }
 }
 
+@keyframes rotate-2 {
+  100% { transform: rotate(4500deg); }
+}
+
 @keyframes rotate-3 {
-  100% { transform: rotate(3600deg); }
+  100% { transform: rotate(7200deg); }
 }
 
 @keyframes rotate-4 {
-  100% { transform: rotate(4500deg); }
+  100% { transform: rotate(11700deg); }
 }
 
 .spinner.level-0 {
@@ -98,21 +116,21 @@ section {
 
 .spinner.level-1 {
 	animation-name: rotate-1;
-	animation-duration: 1200ms; /* duration of single spin */
+	animation-duration: 2000ms; /* duration of single spin */
 }
 
 .spinner.level-2 {
 	animation-name: rotate-2;
-	animation-duration: 1400ms; /* duration of single spin */
+	animation-duration: 3000ms; /* duration of single spin */
 }
 
 .spinner.level-3 {
 	animation-name: rotate-3;
-	animation-duration: 1600ms; /* duration of single spin */
+	animation-duration: 4000ms; /* duration of single spin */
 }
 .spinner.level-4 {
 	animation-name: rotate-4;
-	animation-duration: 1800ms; /* duration of single spin */
+	animation-duration: 5000ms; /* duration of single spin */
 }
 
 
