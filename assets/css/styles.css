@@ -109,32 +109,32 @@ section {
   100% { transform: rotate(11700deg); }
 }
 
-.spinner.level-0 {
+.rotate.level-0 {
 	animation-name: rotate-0;
 	animation-duration: 1000ms; /* duration of single spin */
 }
 
-.spinner.level-1 {
+.rotate.level-1 {
 	animation-name: rotate-1;
 	animation-duration: 2000ms; /* duration of single spin */
 }
 
-.spinner.level-2 {
+.rotate.level-2 {
 	animation-name: rotate-2;
 	animation-duration: 3000ms; /* duration of single spin */
 }
 
-.spinner.level-3 {
+.rotate.level-3 {
 	animation-name: rotate-3;
 	animation-duration: 4000ms; /* duration of single spin */
 }
-.spinner.level-4 {
+.rotate.level-4 {
 	animation-name: rotate-4;
 	animation-duration: 5000ms; /* duration of single spin */
 }
 
 
-.spinner {
+.rotate {
 	animation-iteration-count: 1;
 	animation-direction: normal; /* or: alternate */
 	animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
